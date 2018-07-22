@@ -1,0 +1,35 @@
+
+nav {
+  background-color: DarkTurquoise;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr;);
+  grid-template-rows: 55px;
+  font-size: 25px;
+}
+
+.dog-svg {
+  grid-column: 1 / 2;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.how {
+  grid-column: 22 / 23;
+  margin-bottom: px;
+}
+
+.what {
+  grid-column: 23 / 24;
+}
+
+.facts {
+  grid-column: 24 / 25;
+}
+
+.hero {
+  background-image: url("../../images/park.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
